@@ -1,5 +1,5 @@
 # 📚 Facebook Video to Google Docs Learning Series Automation
-> **ইনস্ট্রাক্টর:** টিপু সুলতান (Tipu Sultan) — প্রত�> **সোর্স লিঙ্ক:** [facebook.com/share/14nc19UVKkk/](https://www.facebook.com/share/14nc19UVKkk/) (`mdshouvikurrahman`) • [facebook.com/share/v/19Le17KWpv/](https://www.facebook.com/share/v/19Le17KWpv/) (`ictcare.com.bd`) • [facebook.com/share/g/1Jw5R8cmgq/](https://www.facebook.com/share/g/1Jw5R8cmgq/) (`ICT Care Community`)  
+> **ইনস্ট্রাক্টর:** টিপু সুলতান (Tipu Sultan) — প্রত�> **সোর্স লিঙ্ক:** [facebook.com/share/14nc19UVKkk/](https://www.facebook.com/share/14nc19UVKkk/) (`mdshouvikurrahman`) • [facebook.com/share/v/19Le17KWpv/](https://www.facebook.com/share/v/19Le17KWpv/) (`ictcare.com.bd`) • [facebook.com/share/g/1Jw5R8cmgq/](https://www.facebook.com/share/g/1Jw5R8cmgq/) (`ICT Care Community`)  
 > **প্রকল্প উদ্দেশ্য:** ফেসবুকের সব ভিডিও, রিলস ও গ্রুপ আর্টিকেল ক্রমানুসারে (Lesson 01 থেকে 37 পর্যন্ত) সাজিয়ে স্পিকার যা শিখিয়েছেন তার গভীর বিশ্লেষণ, বাস্তব এক্সিকিউশন টিপস এবং গুগল ডক কম্প্যাটিবল লেসন তৈরি করা।
 
 ---
@@ -100,9 +100,9 @@ python fb_video_orchestrator.py --serve
 ```
 - **পিসি ব্রাউজার:** `http://localhost:8080`
 - **একই ওয়াইফাই নেটওয়ার্ক (LAN):** `http://10.0.0.91:8080`
-- **গ্লোবাল মোবাইল লিঙ্ক (যেকোনো সিম/ডাটা/ওয়াইফাই):** `https://athletic-whom-investigations-helpful.trycloudflare.com`
+- **গ্লোবাল মোবাইল লিঙ্ক (যেকোনো সিম/ডাটা/ওয়াইফাই):** `https://sultantipu199.github.io/learn-from-fb/`
 
 > **📱 মোবাইল থেকে দেখার উপায়:** 
 > ১. পিসির স্ক্রিনে দেখানো **QR কোড** আপনার ফোনের ক্যামেরা দিয়ে স্ক্যান করুন।  
-> ২. অথবা ফোনের ব্রাউজারে (Chrome/Safari) `https://athletic-whom-investigations-helpful.trycloudflare.com` ওপেন করুন।  
+> ২. অথবা ফোনের ব্রাউজারে (Chrome/Safari) `https://sultantipu199.github.io/learn-from-fb/` ওপেন করুন।  
 > ৩. মোবাইলের নিচের ফ্লোটিং নেভিগেশন বার দিয়ে যেকোনো লেসনে জাম্প করতে পারবেন এবং ১-ট্যাপে সরাসরি গুগল ডকে বা নোটসে কপি করতে পারবেন!

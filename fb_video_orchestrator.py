@@ -45,8 +45,8 @@ def serve_web_viewer():
     
     print(f"\n🌐 Desktop Local URL: http://localhost:{PORT}")
     print(f"📶 Same Wi-Fi LAN:    http://10.0.0.91:{PORT}")
-    print(f"📱 Public Mobile URL: https://athletic-whom-investigations-helpful.trycloudflare.com")
-    print("   (যেকোনো স্মার্টফোন থেকে সরাসরি ওপেন বা কিউআর কোড স্ক্যান করুন)\n")
+    print(f"🌍 Worldwide GitHub:  https://sultantipu199.github.io/learn-from-fb/")
+    print("   (যেকোনো স্মার্টফোন বা কম্পিউটার থেকে সরাসরি ওপেন বা কিউআর কোড স্ক্যান করুন)\n")
     
     # Try opening the web browser
     try:
