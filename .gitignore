@@ -1,0 +1,22 @@
+# Executables & Binaries
+cloudflared.exe
+*.exe
+
+# Python Cache & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+.env.local
+
+# Scraped raw dump files
+data/*.html
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/

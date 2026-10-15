@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook Video Learning Series - Tipu Sultan</title>
+  <meta name="description" content="ফেসবুক ভিডিও থেকে তৈরি সম্পূর্ণ ধারাবাহিক লেসন সিরিজ, সারসংক্ষেপ ও উদ্যোক্তা গাইডলাইন।">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient background glow -->
+  <div class="bg-glow glow-1"></div>
+  <div class="bg-glow glow-2"></div>
+
+  <!-- Header Section -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="badge-tag">
+        <span class="pulse-dot"></span> Facebook Video Series • Antigravity AI Engine
+      </div>
+      <h1 class="main-title">
+        ফেসবুক ভিডিও লার্নিং সিরিজ 
+        <span class="gradient-text">লেসন মাস্টারক্লাস</span>
+      </h1>
+      <p class="instructor-tag">
+        <strong>টিপু সুলতান</strong> (প্রতিষ্ঠাতা, ICT CARE • লেখক: <em>'অনলাইন উদ্যোক্তার ১০০ দিন'</em>)
+      </p>
+      <p class="source-link">
+        সোর্স পেজ ও গ্রুপ: <a href="https://www.facebook.com/share/14nc19UVKkk/" target="_blank" rel="noopener">টিপু সুলতান</a> • <a href="https://www.facebook.com/share/v/19Le17KWpv/" target="_blank" rel="noopener">ICT CARE (ictcare.com.bd)</a> • <a href="https://www.facebook.com/groups/ictcarecommunity/" target="_blank" rel="noopener">ICT Care Community Group</a>
+      </p>
+
+      <!-- Stats Bar -->
+      <div class="stats-grid">
+        <div class="stat-card">
+          <span class="stat-num" id="stat-total">37</span>
+          <span class="stat-label">মোট লেসন (Videos, Reels & Articles)</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num" id="stat-duration">~100+ মিনিট</span>
+          <span class="stat-label">সর্বমোট কনটেন্ট ও পাঠ সময়</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num" id="stat-completed">0 / 37</span>
+          <span class="stat-label">আপনার সম্পন্ন লেসন</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">১০০%</span>
+          <span class="stat-label">Google Doc কম্প্যাটিবল</span>
+        </div>
+      </div>
+
+      <!-- Mobile Access Alert Banner -->
+      <div class="mobile-access-banner" id="mobile-banner">
+        <div class="mobile-banner-left">
+          <span class="mobile-badge-live">
+            <span class="live-dot"></span> মোবাইল লিঙ্ক লাইভ
+          </span>
+          <div class="mobile-url-info">
+            <span class="url-label">ফোনে সরাসরি দেখতে লিঙ্কে ট্যাপ করুন বা কিউআর কোড স্ক্যান করুন:</span>
+            <a href="https://athletic-whom-investigations-helpful.trycloudflare.com" target="_blank" rel="noopener" class="mobile-url-link" id="banner-public-link">
+              https://athletic-whom-investigations-helpful.trycloudflare.com
+            </a>
+          </div>
+        </div>
+        <div class="mobile-banner-actions">
+          <button id="btn-banner-qr" class="btn-banner btn-banner-qr" title="QR কোড প্রদর্শন করুন">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+            QR কোড
+          </button>
+          <button id="btn-banner-copy" class="btn-banner btn-banner-copy" title="মোবাইল লিঙ্ক কপি করুন">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+            লিঙ্ক কপি
+          </button>
+        </div>
+      </div>
+
+      <!-- Quick Actions -->
+      <div class="action-buttons">
+        <button id="btn-open-mobile-modal" class="btn btn-mobile-highlight" title="মোবাইলে দেখতে QR কোড স্ক্যান করুন">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+          📱 মোবাইলে ওপেন & QR কোড
+        </button>
+        <button id="btn-copy-all" class="btn btn-primary" title="সম্পূর্ণ সিরিজ গুগল ডকে পেস্ট করার জন্য কপি করুন">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+          Google Doc ফরম্যাটে কপি
+        </button>
+        <button id="btn-download-md" class="btn btn-secondary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          Markdown (.md) ডাউনলোড
+        </button>
+        <button id="btn-open-add-modal" class="btn btn-accent">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="16"></line><line x1="8" y1="12" x2="16" y2="12"></line></svg>
+          নতুন ভিডিও যুক্ত করুন
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="main-content">
+    <!-- Filter Controls -->
+    <div class="control-panel">
+      <div class="search-box">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <input type="text" id="search-input" placeholder="টপিক, কী-পয়েন্ট বা লেসন সার্চ করুন..." autocomplete="off">
+      </div>
+
+      <div class="filter-tabs">
+        <button class="filter-btn active" data-level="ALL">সব লেসন</button>
+        <button class="filter-btn" data-level="BEGINNER">Beginner</button>
+        <button class="filter-btn" data-level="INTERMEDIATE">Intermediate</button>
+        <button class="filter-btn" data-level="ADVANCED">Advanced</button>
+      </div>
+
+      <div class="sort-select-wrapper">
+        <label for="sort-select">ক্রম:</label>
+        <select id="sort-select">
+          <option value="asc">ধারাবাহিক ক্রম (Lesson 01 → 27)</option>
+          <option value="desc">বিপরীত ক্রম (Lesson 27 → 01)</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Table of Contents Bar -->
+    <div class="toc-accordion">
+      <details>
+        <summary>
+          <span class="toc-title">📑 সূচিপত্র ও দ্রুত নেভিগেশন (Table of Contents)</span>
+          <span class="toc-subtext">ক্লিক করে যেকোনো লেসনে জাম্প করুন</span>
+        </summary>
+        <div class="toc-list" id="toc-container">
+          <!-- Dynamically populated -->
+        </div>
+      </details>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">কপি করা হয়েছে! Google Doc-এ পেস্ট করতে পারবেন।</div>
+
+    <!-- Lessons List Container -->
+    <section class="lessons-container" id="lessons-list">
+      <!-- Lesson Cards rendered by JS -->
+    </section>
+
+    <!-- Footer Summary Section -->
+    <footer class="doc-footer-summary">
+      <div class="footer-card">
+        <h3>📊 সিরিজ স্ট্যাটিস্টিকস ও সমাপ্তি রিপোর্ট</h3>
+        <p>এই সম্পূর্ণ ডকুমেন্টটি ফেসবুক পেজের প্রতিটি ভিডিওর বক্তব্য নিখুঁতভাবে বিশ্লেষণ করে এবং বাস্তব ব্যবসায়িক পরামর্শ যুক্ত করে তৈরি করা হয়েছে। আপনি সহজেই এটি আপনার <strong>Google Drive / Docs</strong> এ সেভ করতে পারেন।</p>
+        <div class="footer-badges">
+          <span class="tag-pill">✅ ২৭টি ভিডিও ও রিলস অন্তর্ভুক্ত (প্রোফাইল + ICT CARE)</span>
+          <span class="tag-pill">✅ ক্রমানুসারে সাজানো (Lesson 01 থেকে 27)</span>
+          <span class="tag-pill">✅ বক্তার মূল বক্তব্য সংরক্ষিত</span>
+          <span class="tag-pill">✅ মোবাইল ও গুগল ডক অপ্টিমাইজড</span>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Mobile Floating Bottom Navigation Bar -->
+  <nav class="mobile-bottom-nav" id="mobile-nav" aria-label="মোবাইল নেভিগেশন">
+    <button class="nav-item" id="nav-top">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
+      <span>উপরে</span>
+    </button>
+    <button class="nav-item" id="nav-search">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+      <span>সার্চ</span>
+    </button>
+    <button class="nav-item" id="nav-toc">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg>
+      <span>সূচিপত্র</span>
+    </button>
+    <button class="nav-item" id="nav-copy">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+      <span>কপি ডক</span>
+    </button>
+    <button class="nav-item" id="nav-mobile-link">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+      <span>QR লিঙ্ক</span>
+    </button>
+  </nav>
+
+  <!-- Mobile Access & QR Code Modal -->
+  <div id="mobile-qr-modal" class="modal">
+    <div class="modal-content mobile-qr-modal-content">
+      <div class="modal-header">
+        <h2>📱 মোবাইল থেকে ব্যবহার করুন</h2>
+        <button class="close-btn" id="btn-close-mobile-modal">&times;</button>
+      </div>
+      <div class="qr-body">
+        <p class="qr-instruction">আপনার ফোনের ক্যামেরা অ্যাপ অন করে নিচের <strong>QR কোডটি স্ক্যান করুন</strong> অথবা সরাসরি ব্রাউজারে লিঙ্কটি ওপেন করুন:</p>
+        
+        <div class="qr-image-wrapper">
+          <img id="qr-code-img" src="mobile_qr.png" onerror="this.src='https://api.qrserver.com/v1/create-qr-code/?size=240x240&data=https%3A%2F%2Fathletic-whom-investigations-helpful.trycloudflare.com'" alt="Mobile Access QR Code" class="qr-img">
+          <div class="qr-scan-badge">⚡ Instant Scan & Open</div>
+        </div>
+
+        <div class="mobile-link-box">
+          <label>🌐 পাবলিক মোবাইল লিঙ্ক (যেকোনো সিম / ওয়াইফাই):</label>
+          <div class="copy-input-group">
+            <input type="text" id="mobile-public-url-input" readonly value="https://athletic-whom-investigations-helpful.trycloudflare.com">
+            <button id="btn-copy-mobile-public" class="btn btn-primary btn-sm">কপি</button>
+          </div>
+        </div>
+
+        <div class="mobile-link-box local-wifi-box">
+          <label>📶 একই ওয়াইফাই নেটওয়ার্কের জন্য (Local LAN):</label>
+          <div class="copy-input-group">
+            <input type="text" id="mobile-local-url-input" readonly value="http://10.0.0.91:8080">
+            <button id="btn-copy-mobile-local" class="btn btn-secondary btn-sm">কপি</button>
+          </div>
+        </div>
+
+        <div class="mobile-features-list">
+          <div class="feat-item">✨ <strong>টাচ ফ্রেন্ডলি:</strong> সম্পূর্ণ রেসপনসিভ মোবাইল লেআউট</div>
+          <div class="feat-item">📲 <strong>গুগল ডক এক্সপোর্ট:</strong> ১-ট্যাপে মোবাইলের গুগল ডক বা নোটসে কপি</div>
+          <div class="feat-item">🔍 <strong>ইনস্ট্যান্ট সার্চ:</strong> যেকোনো বিষয়ে সার্চ করে লেসন খুঁজুন</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add New Video Modal -->
+  <div id="add-modal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>নতুন ভিডিও লেসন যুক্ত করুন</h2>
+        <button class="close-btn" id="btn-close-modal">&times;</button>
+      </div>
+      <form id="add-lesson-form">
+        <div class="form-group">
+          <label>ভিডিও শিরোনাম (বাংলা):</label>
+          <input type="text" id="new-title" required placeholder="যেমন: ফেসবুক বিজ্ঞাপনে কম খরচে সেলস পাওয়ার উপায়">
+        </div>
+        <div class="form-group">
+          <label>ইংরেজি সাবটাইটেল:</label>
+          <input type="text" id="new-title-en" placeholder="e.g., Low-cost Facebook Ads Strategy">
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>ফেসবুক ভিডিও URL:</label>
+            <input type="url" id="new-url" placeholder="https://www.facebook.com/watch/?v=...">
+          </div>
+          <div class="form-group">
+            <label>লেভেল:</label>
+            <select id="new-level">
+              <option value="BEGINNER">Beginner</option>
+              <option value="INTERMEDIATE">Intermediate</option>
+              <option value="ADVANCED">Advanced</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>বক্তার বিস্তারিত সারসংক্ষেপ (Summary):</label>
+          <textarea id="new-summary" rows="4" placeholder="ভিডিওতে স্পিকার কী কী শিখিয়েছেন..."></textarea>
+        </div>
+        <div class="form-group">
+          <label>মূল ৩টি শিক্ষণীয় পয়েন্ট (কমা দিয়ে আলাদা করুন):</label>
+          <input type="text" id="new-points" placeholder="পয়েন্ট ১, পয়েন্ট ২, পয়েন্ট ৩">
+        </div>
+        <div class="form-actions">
+          <button type="button" class="btn btn-secondary" id="btn-cancel-modal">বাতিল</button>
+          <button type="submit" class="btn btn-primary">লেসন যুক্ত করুন</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
